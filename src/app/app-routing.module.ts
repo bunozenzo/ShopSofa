@@ -10,15 +10,15 @@ import { SaleOfComponent } from './sale-of/sale-of.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full'},
-  { path: 'home',  component: HomeComponent},
+  { path: '', redirectTo: '/Home', pathMatch: 'full'},
+  { path: 'Home',  component: HomeComponent},
   { path: 'CornerSofa',  component: CornerSofaComponent},
   { path: 'SkinSofa',  component: SkinSofaComponent},
   { path: 'ChairSofa',  component: ChairSofaComponent},
   { path: 'TableSofa',  component: TableSofaComponent},
   { path: 'SaleOf',  component: SaleOfComponent},
   { path: 'Other',  component: OtherComponent},
-  { path: 'Details/:i',  component: ProductDetailsComponent},
+  { path: 'Detail/:id',  component: ProductDetailsComponent},
 ];
 
 @NgModule({
