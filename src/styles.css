@@ -1,1 +1,326 @@
 /* You can add global styles to this file, and also import other style files */
+#mainPage{
+	width: 100%;
+	background-color: #f5f5f5;
+}
+.clearfix{
+	overflow: hidden;
+	clear: both;
+}
+#header{
+	margin: 0 auto;
+	height: 98px;
+	
+}
+.fixwidth{
+	width: 1170px;
+	margin: 0 auto;
+}
+.logo{
+	margin-top: 18px;
+	width: 280px;
+	float: left;
+}
+#headerleft{
+	float: left;
+	width: 890px;
+}
+.search{
+	float: left;
+	margin-top: 28px;
+	width: 390px;
+}
+.container{
+	float: left;
+}
+#search{
+	width: 313px;
+	height: 35px;
+	float: left;
+	font-family: MyriadPro-Regular;
+	border: 1px solid #e0dfdc;
+	border-radius: 2px;
+	padding: 13px 0px 13px 11px;
+}
+.icon{
+	float: left;
+}
+.logo_left{
+	float: left;
+	margin: 34px 0px 32px 0px;
+}
+.img_logo{
+	float: left;
+	margin-left: 50px;
+}
+.img_fix{
+	margin-left: 0px;
+}
+#nav{
+	background-color: #303030;
+	clear: both;
+	height: 42px;
+}
+#menu{
+}
+#menu ul{
+	list-style-type:none;
+	padding: 0px;	
+	margin: 0px;
+}
+#menu ul li{
+	display:inline;
+}
+#menu ul li:first-child a{
+	background-color: #ffc20f;
+}
+#menu ul a{
+	font-family: MyriadPro-Regular;
+	text-transform: uppercase;
+	text-decoration:none;
+	padding-left: 21px;
+	padding-right: 21px;
+	float:left;
+	color:#f5f5f5;
+	font-size: 16px;
+	text-align:center;
+	line-height:42px;
+}
+#menu ul a:hover{
+	background-color: #ffc20f;
+}
+#image_sofa img{
+	width: 100%;
+}
+#category>h1{
+	margin-top: 38px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #333333;
+	font-family: MyriadPro-Regular;
+}
+.content_category{
+	background-color: #ffc20f;
+	margin-top: -5px;
+	padding-bottom: 18px;
+}
+.content_category>h1{
+	text-align: left;
+	text-transform: uppercase;
+	padding: 18px 0px 18px 17px;
+	font-family: MyriadPro-Regular;
+	font-size: 18px;
+	color: #333333;
+}
+.content_category ul{
+	list-style: inside;
+	list-style-type: none;
+}
+.content_category a{
+	margin-left: 18px;
+	font-family: MyriadPro-Regular;
+	font-size: 14px;
+	color: #5c4500;
+	text-decoration: none;
+}
+.content_category ul{
+	margin-left: 15px;
+	margin-bottom: 18px;
+}
+.content_category ul li{
+	font-size: 14px;
+	line-height: 20px;
+	font-family: MyriadPro-Regular;
+	font-size: 14px;
+	color: #333333;
+}
+.category{
+	float: left;
+	margin-right: 16px;
+	width: 280px;
+}
+.category:last-child{
+	margin-right: 0px;
+}
+#sale{
+	padding-top: 16px;
+	clear: both;
+	height: 200px;
+}
+.sale{
+	float: left;
+}
+.sale_sofa{
+	margin-left: 16px;
+}
+.carpet_left,.lights_left,.product_hot_left{
+	float: left;
+}
+.carpet_left>h1,.lights_left>h1,.product_hot_left>h1{
+	font-family: MyriadPro-Regular;
+	font-size: 24px;
+	padding: 51px 0px 11px;
+	font-weight: normal;
+}
+.carpet_right,.lights_right,.product_hot_right{
+	float: right;
+	padding-top: 60px;
+}
+.carpet_right>ul>li,.lights_right>ul>li,.product_hot_right>ul>li{
+	float: right;
+	list-style: none;
+	border-left: 1px solid #333333;
+}
+.carpet_right>ul>li:last-child,.lights_right>ul>li:last-child,.product_hot_right>ul>li:last-child{
+	border: none;
+}
+.carpet_right>ul>li>a,.lights_right>ul>li>a,.product_hot_right>ul>li>a{
+	font-size: 16px !important;
+	text-decoration: none;
+	font-family: MyriadPro-Regular;
+	font-size: 18px;
+	color: #333333;
+	padding: 0px 15px;
+
+}
+.carpet_right>ul>li:first-child a,.lights_right>ul>li:first-child a,.product_hot_right>ul>li:first-child a{
+	padding-right: 0px;
+}
+#product_hot>hr{
+	clear: both;
+	margin: 0px;
+}
+#product_hot>ul{
+	clear: both;
+	list-style-type: none ;
+	margin-left: -15px;
+}
+#product_hot>ul>li{
+	float: left;
+	width: 260px;
+	background-color: #ffffff;
+	margin-left: 16px;
+	margin-top: 20px;
+}
+.prduct_hot:last-child{
+	margin-right: 0px;
+}
+.product_hot img{
+	margin: 7px;
+}
+.price_product{
+	text-align: center;
+	padding-top: 24px;
+	background-color: #ececec;
+}
+.price_product span{
+	font-size: 16px;
+	font-family: MyriadPro-Regular;
+}
+.price_product p{
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fe0000;
+	padding-bottom: 19px;
+	font-family: MyriadPro-Regular;
+}
+#lights{
+	clear: both;
+}
+#lights>ul{
+	clear: both;
+	list-style-type: none ;
+	margin-left: -15px;
+}
+#lights>ul>li{
+	float: left;
+	width: 260px;
+	background-color: #ffffff;
+	margin-left: 16px;
+	margin-top: 20px;
+}
+#lights>hr{
+	clear: both;
+	margin: 0px;
+}
+#carpet{
+	clear: both;
+}
+#carpet>hr{
+	clear: both;
+	margin: 0px;
+}
+#carpet>ul{
+	clear: both;
+	list-style-type: none ;
+	margin-left: -15px;
+}
+#carpet>ul>li{
+	float: left;
+	width: 260px;
+	background-color: #ffffff;
+	margin-left: 16px;
+	margin-top: 20px;
+}
+#footer{
+	clear: both;
+	padding-top: 51px;
+}
+.footer_content{
+	float: left;
+}
+#container_footer{
+	background-color: #343434;
+	height: 212px;
+	font-family: MyriadPro-Regular;
+}
+.f_1 {
+	width: 270px;
+	line-height: 25px;
+	margin-top: 38px;
+	color: #f5f5f5;
+}
+.f_1 span{
+	color: #ffcc00;
+	font-size: 14px;
+}
+.f_1_c>i{
+	clear: both;
+	float: left;
+	padding-right: 10px;
+}
+.f_2{
+    width: 134px;
+}
+.f_2 ul,.f_3 ul,.f_4 ul{
+    list-style-type: none;
+    padding: 10px;
+}
+.f_2 ul li,.f_3 ul li,.f_4 ul li{
+	line-height: 30px;
+}
+.f_2 ul li a,.f_3 ul li a,.f_4 ul li a{
+	text-decoration: none;
+	color: #f5f5f5;
+	font-size: 14px;
+}
+.f_3{
+	width: 188px;
+}
+.f_4{
+	width: 266px;
+}
+.f_2,.f_3,.f_4,.f_5 {
+	line-height: 25px;
+	margin-top: 38px;
+}
+.f_2,.f_3,.f_4 span{
+	color: #ffcc00;
+	font-size: 18px;
+}
+.f_2,.f_3,.f_4 ul li{
+	list-style-type: none;
+}

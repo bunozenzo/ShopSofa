@@ -1,20 +1,149 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-
+<div id="mainPage" class="clearfix">
+  <header id="header" class="fixwidth">
+    <h1 class="logo">
+      <a href="#">
+        <img src="../assets/logo_sofa.png" alt="">
+      </a>
+    </h1>
+    <div id="headerleft">
+      <div class="search">
+        <div class="container">
+          <input type="search" id="search" placeholder="Nhập từ khóa tìm kiếm ..." />
+          <div class="icon">
+            <img src="../assets/icon_search.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="logo_left">
+        <div class="img_logo img_fix">
+          <img src="../assets/logo_doitra.png" alt="">
+        </div>
+        <div class="img_logo">
+          <img src="../assets/logo_giaohang.png" alt="">
+        </div>
+        <div class="img_logo">
+          <img src="../assets/logo_thanhtoan.png" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- /header -->
+  <nav id="nav">
+    <div class="fixwidth" id="menu">
+      <ul>
+        <li>
+          <a href="#">Trang chủ</a>
+        </li>
+        <li>
+          <a href="#">Sofa góc</a>
+        </li>
+        <li>
+          <a href="#">Sofa da thật</a>
+        </li>
+        <li>
+          <a href="#">Ghế sofa</a>
+        </li>
+        <li>
+          <a href="#">Bàn kệ</a>
+        </li>
+        <li>
+          <a href="#">Sản phẩm khác</a>
+        </li>
+        <li>
+          <a href="#">Cẩm nang</a>
+        </li>
+        <li>
+          <a href="#">Khuyến mại</a>
+        </li>
+        <li>
+          <a href="#">Liên hệ</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section id="image_sofa">
+    <img src="../assets/image_sofa.jpg" alt="">
+  </section>
+  <router-outlet></router-outlet>
+  <footer id="footer">
+    <div id="container_footer">
+      <div class="fixwidth">
+        <div class="footer_content f_1">
+          <span>Tư vấn bán hàng - Phục vụ 24/7</span>
+          <div class="f_1_c">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <p>0986 161 676</p>
+          </div>
+          <span>Góp ý khuyến mại(8h-21h)</span>
+          <div class="f_1_c">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <p>0986 161 676</p>
+          </div>
+          <span>Bảo hành sản phẩm(8h-21h)</span>
+          <div class="f_1_c">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <p>0986 161 676</p>
+          </div>
+        </div>
+        <div class="footer_content f_2">
+          <span>Thông tin</span>
+          <ul>
+            <li>
+              <a href="#">Giới thiệu</a>
+            </li>
+            <li>
+              <a href="#">Tuyển dụng</a>
+            </li>
+            <li>
+              <a href="#">Tin tức</a>
+            </li>
+            <li>
+              <a href="#">Bản đồ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_content f_3">
+          <span>Hỗ trợ khách hàng</span>
+          <ul>
+            <li>
+              <a href="#">Liên hệ</a>
+            </li>
+            <li>
+              <a href="#">Giao hàng</a>
+            </li>
+            <li>
+              <a href="#">Hướng dẫn mua hàng</a>
+            </li>
+            <li>
+              <a href="#">Hướng dẫn thanh toán</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_content f_4">
+          <span>Trụ sở Hà Nội</span>
+          <ul>
+            <li>
+              <a href="#">Địa chỉ: Số 161, đường 70, Hà Đông, HN</a>
+              <a href="#"></a>
+            </li>
+            <li>
+              <a href="#">Hotline: 0986 161 676</a>
+              <a href="#"></a>
+            </li>
+            <li>
+              <a href="#">Email: Hienmy121208@gmail.com</a>
+              <a href="#"></a>
+            </li>
+            <li>
+              <a href="#">Website: Sofagiare.com.vn</a>
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_content f_5">
+          <img src="../assets\logo_footer.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
